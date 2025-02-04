@@ -3,7 +3,7 @@ import LoginPage from "../../pages/LoginPage";
 import DashboardPage from "../../pages/DashboardPage";
 import account from "../../../storage/account.json";
 
-describe("UI quiz test - Valid user Test", () => {
+describe("Web testing - Valid user Test", () => {
   beforeEach(() => {
     LoginPage.visit();
   });
@@ -33,7 +33,7 @@ describe("UI quiz test - Valid user Test", () => {
   });
 });
 
-describe("UI quiz test - Invalid user Test", () => {
+describe("Web testing - Invalid user Test", () => {
   beforeEach(() => {
     LoginPage.visit();
   });
