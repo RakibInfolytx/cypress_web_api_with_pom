@@ -1,5 +1,5 @@
 
-describe("User API Tests", () => {
+describe("API Testing", () => {
 
   const apiBaseUrl = Cypress.config("apiUrl");
     
